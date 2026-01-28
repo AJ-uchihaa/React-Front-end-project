@@ -1,0 +1,16 @@
+.side{
+    border: none;
+    color: gold;
+    padding: 2px;
+    background: transparent;
+    
+}
+#sidebar{
+    width: 35%;    
+    margin: 35px;
+    background: rgba(222, 219, 219, 0.938);
+    position: absolute;
+}
+.offcanvas,.offcanvas-body {
+    background-color: #ffffff !important;
+}

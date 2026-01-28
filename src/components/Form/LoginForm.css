@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        background: linear-gradient(135deg,#214abd,#7FE3D6)
+}
+.con{
+    width: 120%;
+    height: 80vh;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    
+}
+form h{
+    font-size: 25px;
+    margin-top: -30px;
+}
+form{
+    row-gap: 15px;
+    display: grid;
+    margin-top: 10px;
+    gap: 15px;
+    padding: 10px;
+}
+label{
+    color: black;
+}
+p{
+    color: red;
+}
+form button{
+        background: linear-gradient(135deg,#0c44deae)
+    
+}
+.icon{
+    color: #214abd;
+    padding: 8px;   
+}
