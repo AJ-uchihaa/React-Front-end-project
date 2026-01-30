@@ -17,7 +17,7 @@ based architecture.
  - Bootstrap 
 
  ## Instalation 
- - 
+ - npm run dev
 
  ## Author
  - AJ
