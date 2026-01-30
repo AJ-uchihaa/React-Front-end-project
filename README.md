@@ -13,6 +13,8 @@ based architecture.
  - Add Income & Expense 
  - Light & Dark Theme 
  - Showing Total Balance 
+ - login Form (Used Zod)
+ - Protected Router
 
  ## Tech Stock
  - React
