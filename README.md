@@ -10,11 +10,15 @@ based architecture.
  - Reusable components 
  - Fast performance with vite
  - clean folder structure 
+ - Add Income & Expense 
+ - Light & Dark Theme 
+ - Showing Total Balance 
 
  ## Tech Stock
  - React
  - Vite
- - Bootstrap 
+ - Bootstrap
+ - Css 
 
  ## Instalation 
  - npm run dev
