@@ -4,7 +4,7 @@ import { useReducer,createContext } from "react";
  
 const initialState = {
     history : []
-}
+};
 function GlobalStore(state,action) {
     switch (action.type){
         case 'HIS':
@@ -12,7 +12,7 @@ function GlobalStore(state,action) {
                 history : [...state.history,
                     {
                 id: Date.now(),
-                text: action.payload.text,
+                text: action.payload.val,
                 amount: action.payload.amount
             }
           ] 
@@ -21,13 +21,13 @@ function GlobalStore(state,action) {
                 return state;
     }
 }
-export const GlobalProvider =({ Children }) =>{
+export const GlobalProvider = ({ children }) =>{
 const [state,dispatch] = useReducer(GlobalStore,initialState)
 
 
     return(
-         <GlobalContext.Provider value={{state,dispatch}}>
-            {Children}
+         <GlobalContext.Provider value={{history: state.history, dispatch}}>
+            {children}
         </GlobalContext.Provider>
         
     )

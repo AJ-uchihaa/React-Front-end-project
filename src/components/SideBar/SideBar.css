@@ -14,3 +14,11 @@
 .offcanvas,.offcanvas-body {
     background-color: #ffffff !important;
 }
+ul li{
+ list-style-type: none;
+ display: flex;
+ justify-content: space-between;
+ gap: 5px;
+ word-spacing: 15px;
+ margin-left: -15px;
+}

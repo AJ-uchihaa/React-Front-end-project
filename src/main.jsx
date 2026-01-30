@@ -12,11 +12,11 @@ import { GlobalProvider} from './components/GlobalStore/GlobalStore.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
      <Provider store={store}>
-     <GlobalProvider>
+      <GlobalProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-   </GlobalProvider>
+    </GlobalProvider>
     </Provider>
   </StrictMode>,
   

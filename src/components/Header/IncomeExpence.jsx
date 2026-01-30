@@ -53,7 +53,9 @@ function Tracker(){
                 val,amount: Number(amount)}})
                 }}>Income</button>
                 <button disabled={!val || amount ==""} className="expence-btn" onClick={() => { if (amount <= 0)
-                return; setExpence(prev => prev + Number(amount)); setAmount(""); setVal("")}}>Expence</button>
+                return; setExpence(prev => prev + Number(amount)); setAmount(""); setVal(""); dispatch({ type: 'HIS', payload:{
+                    val,amount: Number(amount)
+                }})}}>Expence</button>
              </div>
              
         </div>
